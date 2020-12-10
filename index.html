@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yassine Assemmar</title>
+</head>
+<body>
+
+    <section class="hero" id="hero">
+
+        <div id="menu">
+            <input id="inputText" class="checkbox" type="checkbox" onclick="changeText()" />
+                    
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+            <h1 id="menuTitle" >MENU</h1>
+                    
+            <div class="sideMenu">
+                <ul class="pages">
+                <li class="pageItem li" >
+                    <a class="pageLink" href="index.html">HOME</a>
+                    <svg class="svg" width="751" height="145" viewBox="0 0 751 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="squiggle" d="M0.5 78.9998C163.7 78.1998 211.5 78.6665 215 78.9998C230.833 79.1664 251.5 77.4998 261 96.4998C271.09 116.679 280.5 130 299.5 120.5C318.5 111 321.5 69.4998 349.5 42.9998C377.5 16.4998 424 14.9998 451 42.9998C478 70.9998 458 89.4997 440 96.4998C416.5 105.639 390.5 96.9054 390.5 70.4999C390.5 35.4998 450.176 -16.5528 486.5 7.49991C523.5 31.9999 514 75.9998 550 83.4997C592.227 92.2969 589.5 46.4998 628 51.4998C666.5 56.4997 707 100.5 750.5 83.4997" stroke-width="15"/>
+                    </svg>
+                </li>
+                <li class="pageItem li" >
+                    <a class="pageLink" href="#about-myself">ABOUT</a>
+                    <svg class="svg" width="751" height="145" viewBox="0 0 751 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="squiggle" d="M0.5 76C163.7 75.2 211.5 75.6667 215 76C230.833 76.1667 247.947 110.913 264 97.0002C286.5 77.5002 271 44.5002 290 35.0002C309 25.5002 349.784 27.3564 328.5 59.5002C304 96.5002 313 117.5 340 97.0002C370.98 73.4787 390.5 -8.49979 414 14.0002C432.213 31.4378 382 74.4999 449.5 92.0002C483.38 100.784 534.028 76.6676 492.5 63.5001C451.5 50.5001 458.913 9.02764 492.5 24.0001C534 42.5001 535.888 -26.7276 613 14.0002C684 51.4999 707 97.5 750.5 80.5" stroke-width="15"/>
+                    </svg>
+                    </li>
+                    <li class="pageItem li" >
+                    <a class="pageLink" href="#portfolio">PROJECTS</a>
+                    <svg class="svg" width="751" height="145" viewBox="0 0 751 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="squiggle" d="M0.5 65.0001C163.7 64.2001 211.5 64.6667 215 65.0001C244.5 65.0001 224.5 -18 263.5 24.0002C311.615 75.8167 283.801 102.223 304.5 107C324 111.5 354 9.00004 316.5 24.0002C275.298 40.4813 390.5 115 417.5 94.5C448.48 70.9785 373.015 21.1742 400 3.00025C424.5 -13.5 531.77 61.3917 526 82C519 107 472.497 110.546 477.5 94.5C492 47.9998 531.413 50.0277 565 65.0002C606.5 83.5002 603.5 125.5 655 94.5C690.088 73.3792 695.5 48.5 750 101.5" stroke-width="15"/>
+                    </svg>
+                    </li>
+                    <li class="pageItem li" >
+                    <a class="pageLink" href="#contact">CONTACT</a>
+                    <svg class="svg" width="751" height="145" viewBox="0 0 751 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="squiggle" d="M0.5 75C163.7 74.2 211.5 74.6666 215 75C271 75 279.835 -19.1848 335 26.9999C356.5 44.9998 257.5 85 344 85C404.436 85 352 48 385 17C417.344 -13.3833 445.5 7.49981 453 16.9999C475.307 45.2559 386 87.4997 395 100.5C405.317 115.402 564.02 115.277 579.5 100.5C612.5 68.9997 487 83.9998 509 29.9999C527.378 -15.1087 579.5 11.5 586.5 17C622.228 45.0718 603.5 135.5 655 104.5C690.088 83.3791 695.5 58.4999 750 111.5" stroke-width="15"/>
+                    </svg>
+                    </li>
+                </ul>
+                </div>
+            <div class="background"></div>        
+        </div>
+  
+    
+        <div class="content">
+            <div class="header">
+                <h1>
+                    <svg id="logo" width="454" height="40" viewBox="0 0 454 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M27.0375 4.15844L16.2124 25.5766V38.5558H11.8728V25.5766L1 4.15844H5.81645L14.0187 21.5792L22.221 4.15844H27.0375Z" stroke="white"/>
+                    <path d="M29.9933 24.9351C29.9933 22.1714 30.5338 19.7532 31.6147 17.6805C32.6956 15.5749 34.174 13.9463 36.0497 12.7948C37.9572 11.6433 40.0713 11.0675 42.3921 11.0675C44.6811 11.0675 46.6681 11.5775 48.3531 12.5974C50.0381 13.6173 51.2938 14.9004 52.1204 16.4468V11.5117H56.5077V38.5558H52.1204V33.5221C51.262 35.1013 49.9745 36.4173 48.2577 37.4701C46.5728 38.49 44.6017 39 42.3445 39C40.0237 39 37.9254 38.4078 36.0497 37.2234C34.174 36.039 32.6956 34.3775 31.6147 32.239C30.5338 30.1004 29.9933 27.6658 29.9933 24.9351ZM52.1204 24.9844C52.1204 22.9446 51.723 21.168 50.9282 19.6545C50.1334 18.1411 49.0525 16.9896 47.6855 16.2C46.3502 15.3775 44.8719 14.9662 43.2505 14.9662C41.6291 14.9662 40.1508 15.361 38.8156 16.1506C37.4803 16.9403 36.4153 18.0918 35.6205 19.6052C34.8257 21.1186 34.4283 22.8952 34.4283 24.9351C34.4283 27.0078 34.8257 28.8173 35.6205 30.3636C36.4153 31.8771 37.4803 33.045 38.8156 33.8675C40.1508 34.6571 41.6291 35.0519 43.2505 35.0519C44.8719 35.0519 46.3502 34.6571 47.6855 33.8675C49.0525 33.045 50.1334 31.8771 50.9282 30.3636C51.723 28.8173 52.1204 27.0242 52.1204 24.9844Z" stroke="white"/>
+                    <path d="M73.0926 39C71.0897 39 69.2934 38.6545 67.7038 37.9636C66.1143 37.2398 64.8585 36.2528 63.9365 35.0026C63.0146 33.7195 62.5059 32.2554 62.4105 30.6104H66.8932C67.0203 31.9593 67.6244 33.0615 68.7053 33.9169C69.818 34.7723 71.2645 35.2 73.0449 35.2C74.698 35.2 76.0015 34.8216 76.9553 34.0649C77.909 33.3082 78.3859 32.3541 78.3859 31.2026C78.3859 30.0182 77.8772 29.1463 76.8599 28.587C75.8425 27.9948 74.2688 27.419 72.1388 26.8597C70.1995 26.3333 68.6099 25.8069 67.37 25.2805C66.162 24.7212 65.1128 23.9152 64.2227 22.8623C63.3643 21.7766 62.9351 20.3619 62.9351 18.6182C62.9351 17.2364 63.3325 15.9697 64.1273 14.8182C64.9221 13.6667 66.0507 12.7619 67.5131 12.1039C68.9755 11.413 70.6446 11.0675 72.5203 11.0675C75.4134 11.0675 77.7501 11.8242 79.5304 13.3377C81.3107 14.8511 82.2645 16.9238 82.3917 19.5558H78.0521C77.9567 18.1411 77.4003 17.0061 76.383 16.1506C75.3975 15.2952 74.0622 14.8675 72.3772 14.8675C70.8194 14.8675 69.5796 15.213 68.6576 15.9039C67.7356 16.5948 67.2747 17.4996 67.2747 18.6182C67.2747 19.5065 67.5449 20.2468 68.0854 20.839C68.6576 21.3983 69.357 21.8589 70.1836 22.2208C71.042 22.5498 72.2183 22.9281 73.7125 23.3558C75.5882 23.8822 77.1142 24.4087 78.2905 24.9351C79.4668 25.4286 80.4682 26.1853 81.2948 27.2052C82.1532 28.2251 82.5983 29.5576 82.6301 31.2026C82.6301 32.6831 82.2327 34.0156 81.4379 35.2C80.6431 36.3844 79.5145 37.3221 78.0521 38.013C76.6214 38.671 74.9683 39 73.0926 39Z" stroke="white"/>
+                    <path d="M98.0075 39C96.0046 39 94.2084 38.6545 92.6188 37.9636C91.0292 37.2398 89.7734 36.2528 88.8515 35.0026C87.9295 33.7195 87.4208 32.2554 87.3255 30.6104H91.8081C91.9353 31.9593 92.5393 33.0615 93.6202 33.9169C94.7329 34.7723 96.1795 35.2 97.9598 35.2C99.613 35.2 100.916 34.8216 101.87 34.0649C102.824 33.3082 103.301 32.3541 103.301 31.2026C103.301 30.0182 102.792 29.1463 101.775 28.587C100.757 27.9948 99.1838 27.419 97.0537 26.8597C95.1144 26.3333 93.5249 25.8069 92.285 25.2805C91.0769 24.7212 90.0278 23.9152 89.1376 22.8623C88.2792 21.7766 87.85 20.3619 87.85 18.6182C87.85 17.2364 88.2474 15.9697 89.0422 14.8182C89.837 13.6667 90.9656 12.7619 92.428 12.1039C93.8905 11.413 95.5595 11.0675 97.4352 11.0675C100.328 11.0675 102.665 11.8242 104.445 13.3377C106.226 14.8511 107.179 16.9238 107.307 19.5558H102.967C102.872 18.1411 102.315 17.0061 101.298 16.1506C100.312 15.2952 98.9772 14.8675 97.2922 14.8675C95.7344 14.8675 94.4945 15.213 93.5725 15.9039C92.6506 16.5948 92.1896 17.4996 92.1896 18.6182C92.1896 19.5065 92.4598 20.2468 93.0003 20.839C93.5725 21.3983 94.272 21.8589 95.0985 22.2208C95.9569 22.5498 97.1332 22.9281 98.6274 23.3558C100.503 23.8822 102.029 24.4087 103.205 24.9351C104.382 25.4286 105.383 26.1853 106.21 27.2052C107.068 28.2251 107.513 29.5576 107.545 31.2026C107.545 32.6831 107.148 34.0156 106.353 35.2C105.558 36.3844 104.429 37.3221 102.967 38.013C101.536 38.671 99.8832 39 98.0075 39Z" stroke="white"/>
+                    <path d="M115.912 7.11948C115.086 7.11948 114.386 6.82338 113.814 6.23117C113.242 5.63896 112.956 4.91515 112.956 4.05974C112.956 3.20433 113.242 2.48052 113.814 1.88831C114.386 1.2961 115.086 1 115.912 1C116.707 1 117.375 1.2961 117.915 1.88831C118.487 2.48052 118.774 3.20433 118.774 4.05974C118.774 4.91515 118.487 5.63896 117.915 6.23117C117.375 6.82338 116.707 7.11948 115.912 7.11948ZM118.011 11.5117V38.5558H113.671V11.5117H118.011Z" stroke="white"/>
+                    <path d="M138.139 11.0182C141.318 11.0182 143.894 12.0216 145.865 14.0286C147.836 16.0026 148.821 18.8649 148.821 22.6156V38.5558H144.529V23.2571C144.529 20.5593 143.878 18.503 142.574 17.0883C141.271 15.6407 139.49 14.9169 137.233 14.9169C134.944 14.9169 133.116 15.6571 131.749 17.1377C130.414 18.6182 129.746 20.7732 129.746 23.6026V38.5558H125.407V11.5117H129.746V15.361C130.605 13.9792 131.765 12.91 133.227 12.1532C134.722 11.3965 136.359 11.0182 138.139 11.0182Z" stroke="white"/>
+                    <path d="M179.754 23.9974C179.754 24.8528 179.706 25.7576 179.611 26.7117H158.724C158.883 29.3766 159.757 31.4658 161.346 32.9792C162.968 34.4597 164.923 35.2 167.212 35.2C169.088 35.2 170.645 34.7558 171.885 33.8675C173.157 32.9463 174.047 31.729 174.556 30.2156H179.229C178.53 32.8147 177.131 34.9368 175.033 36.5818C172.934 38.1939 170.328 39 167.212 39C164.732 39 162.507 38.4242 160.536 37.2727C158.596 36.1212 157.07 34.4926 155.958 32.387C154.845 30.2485 154.289 27.781 154.289 24.9844C154.289 22.1879 154.829 19.7368 155.91 17.6312C156.991 15.5255 158.501 13.9134 160.44 12.7948C162.411 11.6433 164.669 11.0675 167.212 11.0675C169.692 11.0675 171.885 11.6268 173.793 12.7455C175.7 13.8641 177.163 15.4104 178.18 17.3844C179.229 19.3255 179.754 21.5299 179.754 23.9974ZM175.271 23.0597C175.271 21.3489 174.906 19.8848 174.174 18.6675C173.443 17.4173 172.442 16.4797 171.17 15.8545C169.93 15.1965 168.547 14.8675 167.021 14.8675C164.828 14.8675 162.952 15.5913 161.394 17.039C159.868 18.4866 158.994 20.4935 158.771 23.0597H175.271Z" stroke="white"/>
+                    <path d="M217.843 30.9065H203.346L200.675 38.5558H196.097L208.115 4.35584H213.122L225.091 38.5558H220.513L217.843 30.9065ZM216.603 27.2545L210.594 9.88312L204.586 27.2545H216.603Z" stroke="white"/>
+                    <path d="M239.58 39C237.577 39 235.781 38.6545 234.192 37.9636C232.602 37.2398 231.346 36.2528 230.424 35.0026C229.502 33.7195 228.994 32.2554 228.898 30.6104H233.381C233.508 31.9593 234.112 33.0615 235.193 33.9169C236.306 34.7723 237.752 35.2 239.533 35.2C241.186 35.2 242.489 34.8216 243.443 34.0649C244.397 33.3082 244.874 32.3541 244.874 31.2026C244.874 30.0182 244.365 29.1463 243.348 28.587C242.33 27.9948 240.757 27.419 238.626 26.8597C236.687 26.3333 235.098 25.8069 233.858 25.2805C232.65 24.7212 231.6 23.9152 230.71 22.8623C229.852 21.7766 229.423 20.3619 229.423 18.6182C229.423 17.2364 229.82 15.9697 230.615 14.8182C231.41 13.6667 232.538 12.7619 234.001 12.1039C235.463 11.413 237.132 11.0675 239.008 11.0675C241.901 11.0675 244.238 11.8242 246.018 13.3377C247.798 14.8511 248.752 16.9238 248.879 19.5558H244.54C244.444 18.1411 243.888 17.0061 242.871 16.1506C241.885 15.2952 240.55 14.8675 238.865 14.8675C237.307 14.8675 236.067 15.213 235.145 15.9039C234.223 16.5948 233.762 17.4996 233.762 18.6182C233.762 19.5065 234.033 20.2468 234.573 20.839C235.145 21.3983 235.845 21.8589 236.671 22.2208C237.53 22.5498 238.706 22.9281 240.2 23.3558C242.076 23.8822 243.602 24.4087 244.778 24.9351C245.954 25.4286 246.956 26.1853 247.782 27.2052C248.641 28.2251 249.086 29.5576 249.118 31.2026C249.118 32.6831 248.72 34.0156 247.926 35.2C247.131 36.3844 246.002 37.3221 244.54 38.013C243.109 38.671 241.456 39 239.58 39Z" stroke="white"/>
+                    <path d="M264.495 39C262.492 39 260.696 38.6545 259.106 37.9636C257.517 37.2398 256.261 36.2528 255.339 35.0026C254.417 33.7195 253.908 32.2554 253.813 30.6104H258.296C258.423 31.9593 259.027 33.0615 260.108 33.9169C261.221 34.7723 262.667 35.2 264.447 35.2C266.101 35.2 267.404 34.8216 268.358 34.0649C269.312 33.3082 269.788 32.3541 269.788 31.2026C269.788 30.0182 269.28 29.1463 268.262 28.587C267.245 27.9948 265.671 27.419 263.541 26.8597C261.602 26.3333 260.013 25.8069 258.773 25.2805C257.565 24.7212 256.515 23.9152 255.625 22.8623C254.767 21.7766 254.338 20.3619 254.338 18.6182C254.338 17.2364 254.735 15.9697 255.53 14.8182C256.325 13.6667 257.453 12.7619 258.916 12.1039C260.378 11.413 262.047 11.0675 263.923 11.0675C266.816 11.0675 269.153 11.8242 270.933 13.3377C272.713 14.8511 273.667 16.9238 273.794 19.5558H269.455C269.359 18.1411 268.803 17.0061 267.786 16.1506C266.8 15.2952 265.465 14.8675 263.78 14.8675C262.222 14.8675 260.982 15.213 260.06 15.9039C259.138 16.5948 258.677 17.4996 258.677 18.6182C258.677 19.5065 258.947 20.2468 259.488 20.839C260.06 21.3983 260.76 21.8589 261.586 22.2208C262.445 22.5498 263.621 22.9281 265.115 23.3558C266.991 23.8822 268.517 24.4087 269.693 24.9351C270.869 25.4286 271.871 26.1853 272.697 27.2052C273.556 28.2251 274.001 29.5576 274.033 31.2026C274.033 32.6831 273.635 34.0156 272.84 35.2C272.046 36.3844 270.917 37.3221 269.455 38.013C268.024 38.671 266.371 39 264.495 39Z" stroke="white"/>
+                    <path d="M304.003 23.9974C304.003 24.8528 303.955 25.7576 303.859 26.7117H282.972C283.131 29.3766 284.005 31.4658 285.595 32.9792C287.216 34.4597 289.172 35.2 291.461 35.2C293.336 35.2 294.894 34.7558 296.134 33.8675C297.406 32.9463 298.296 31.729 298.805 30.2156H303.478C302.779 32.8147 301.38 34.9368 299.281 36.5818C297.183 38.1939 294.576 39 291.461 39C288.981 39 286.755 38.4242 284.784 37.2727C282.845 36.1212 281.319 34.4926 280.206 32.387C279.094 30.2485 278.537 27.781 278.537 24.9844C278.537 22.1879 279.078 19.7368 280.159 17.6312C281.24 15.5255 282.75 13.9134 284.689 12.7948C286.66 11.6433 288.917 11.0675 291.461 11.0675C293.94 11.0675 296.134 11.6268 298.042 12.7455C299.949 13.8641 301.411 15.4104 302.429 17.3844C303.478 19.3255 304.003 21.5299 304.003 23.9974ZM299.52 23.0597C299.52 21.3489 299.154 19.8848 298.423 18.6675C297.692 17.4173 296.69 16.4797 295.419 15.8545C294.179 15.1965 292.796 14.8675 291.27 14.8675C289.076 14.8675 287.201 15.5913 285.643 17.039C284.117 18.4866 283.242 20.4935 283.02 23.0597H299.52Z" stroke="white"/>
+                    <path d="M341.157 11.0182C343.191 11.0182 345.004 11.4623 346.593 12.3506C348.183 13.2061 349.439 14.5056 350.361 16.2493C351.282 17.9931 351.743 20.1152 351.743 22.6156V38.5558H347.452V23.2571C347.452 20.5593 346.8 18.503 345.496 17.0883C344.225 15.6407 342.492 14.9169 340.298 14.9169C338.041 14.9169 336.245 15.6736 334.91 17.187C333.574 18.6675 332.907 20.8225 332.907 23.6519V38.5558H328.615V23.2571C328.615 20.5593 327.963 18.503 326.66 17.0883C325.388 15.6407 323.655 14.9169 321.462 14.9169C319.205 14.9169 317.408 15.6736 316.073 17.187C314.738 18.6675 314.07 20.8225 314.07 23.6519V38.5558H309.731V11.5117H314.07V15.4104C314.929 13.9957 316.073 12.91 317.504 12.1532C318.966 11.3965 320.572 11.0182 322.32 11.0182C324.514 11.0182 326.453 11.5281 328.138 12.5481C329.823 13.568 331.079 15.0649 331.905 17.039C332.637 15.1307 333.845 13.6502 335.53 12.5974C337.215 11.5446 339.09 11.0182 341.157 11.0182Z" stroke="white"/>
+                    <path d="M390.288 11.0182C392.323 11.0182 394.135 11.4623 395.725 12.3506C397.314 13.2061 398.57 14.5056 399.492 16.2493C400.414 17.9931 400.875 20.1152 400.875 22.6156V38.5558H396.583V23.2571C396.583 20.5593 395.931 18.503 394.628 17.0883C393.356 15.6407 391.623 14.9169 389.43 14.9169C387.173 14.9169 385.376 15.6736 384.041 17.187C382.706 18.6675 382.038 20.8225 382.038 23.6519V38.5558H377.746V23.2571C377.746 20.5593 377.095 18.503 375.791 17.0883C374.519 15.6407 372.787 14.9169 370.593 14.9169C368.336 14.9169 366.54 15.6736 365.204 17.187C363.869 18.6675 363.202 20.8225 363.202 23.6519V38.5558H358.862V11.5117H363.202V15.4104C364.06 13.9957 365.204 12.91 366.635 12.1532C368.097 11.3965 369.703 11.0182 371.452 11.0182C373.645 11.0182 375.584 11.5281 377.269 12.5481C378.954 13.568 380.21 15.0649 381.037 17.039C381.768 15.1307 382.976 13.6502 384.661 12.5974C386.346 11.5446 388.222 11.0182 390.288 11.0182Z" stroke="white"/>
+                    <path d="M406.372 24.9351C406.372 22.1714 406.912 19.7532 407.993 17.6805C409.074 15.5749 410.553 13.9463 412.428 12.7948C414.336 11.6433 416.45 11.0675 418.771 11.0675C421.06 11.0675 423.047 11.5775 424.732 12.5974C426.417 13.6173 427.672 14.9004 428.499 16.4468V11.5117H432.886V38.5558H428.499V33.5221C427.641 35.1013 426.353 36.4173 424.636 37.4701C422.951 38.49 420.98 39 418.723 39C416.402 39 414.304 38.4078 412.428 37.2234C410.553 36.039 409.074 34.3775 407.993 32.239C406.912 30.1004 406.372 27.6658 406.372 24.9351ZM428.499 24.9844C428.499 22.9446 428.102 21.168 427.307 19.6545C426.512 18.1411 425.431 16.9896 424.064 16.2C422.729 15.3775 421.25 14.9662 419.629 14.9662C418.008 14.9662 416.529 15.361 415.194 16.1506C413.859 16.9403 412.794 18.0918 411.999 19.6052C411.204 21.1186 410.807 22.8952 410.807 24.9351C410.807 27.0078 411.204 28.8173 411.999 30.3636C412.794 31.8771 413.859 33.045 415.194 33.8675C416.529 34.6571 418.008 35.0519 419.629 35.0519C421.25 35.0519 422.729 34.6571 424.064 33.8675C425.431 33.045 426.512 31.8771 427.307 30.3636C428.102 28.8173 428.499 27.0242 428.499 24.9844Z" stroke="white"/>
+                    <path d="M444.559 15.9039C445.322 14.3576 446.403 13.1567 447.802 12.3013C449.233 11.4459 450.965 11.0182 453 11.0182V15.6571H451.855C446.991 15.6571 444.559 18.3879 444.559 23.8493V38.5558H440.22V11.5117H444.559V15.9039Z" stroke="white"/>
+                    </svg>
+
+                </h1>
+            
+            </div>
+        </div>
+        <div class="mytitle">
+            <a href="index.html" class="photo"></a>
+            <p>Développeur web full-stack</p>
+        </div>
+    </section>
+
+    <section class="about-myself" id="about-myself">
+        <div class="content">
+            <h2>Bonjour !</h2>
+            <p>I'm <span>Yassine Assemmar</span>.. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="content">
+            <h1>Experiences</h1>
+            <ul>
+                <li>
+                    <div class="experience-content">
+                    <h2>EM - Strasbourg</h2>
+                    <div class="experience-time">Février - juin 2020</div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </li>
+                <li>
+                    <div class="experience-content middle">
+                    <h2>Acticall</h2>
+                    <div class="experience-time">Mai 2016 - Janvier 2019</div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="experience-content">
+                    <h2>Délégation de santé</h2>
+                    <div class="experience-time">Novembre 2013 - Janvier 2014</div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="content">
+            <div class="development-wrapper">
+            <h2 class="development-title">Dévelopment</h2>
+            <ul class="skills-bar-container">
+                <li>
+                    <div class="progressbar-title">
+                        <h3>HTML5</h3>
+                        <span class="percent" id="html-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="95">
+                        <span class="progressbar" id="progress-html"></span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="progressbar-title">
+                        <h3>CSS / SASS / Bootstrap</h3>
+                        <span class="percent" id="css-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="85">
+                        <span class="progressbar" id="progress-css"></span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="progressbar-title">
+                        <h3>JavaScript / jQuery</h3>
+                        <span class="percent" id="javascript-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="80">
+                        <span class="progressbar" id="progress-javascript"></span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="progressbar-title">
+                        <h3>PHP</h3>
+                        <span class="percent" id="php-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="65">
+                        <span class="progressbar" id="progress-php"></span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="progressbar-title">
+                        <h3>MySQL</h3>
+                        <span class="percent" id="angular-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="70">
+                        <span class="progressbar" id="progress-angular"></span>
+                    </div>
+                </li>
+
+            </ul>
+            </div>
+
+            <div class="tools-knowledge-wrapper">
+            <div class="tools-wrapper">
+                <h2 class="title">Tools</h2>
+                <ul class="tools">
+                <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    Photoshop
+                </li>
+                <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    Adobe XD
+                </li>
+                <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    Figma
+                </li>
+                </ul>
+            </div>
+
+            <div class="knowledge-wrapper">
+                <h2 class="title">Knowledge</h2>
+                <ul class="knowledge">
+                <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    Wireframing
+                </li>
+                <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    Responsive design
+                </li>
+                <li>
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    Looping
+                </li>
+                </ul>
+            </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section class="resume">
+        <div class="content">
+            <a href="CV_Yassine_Assemmar.pdf" target="_blank" download="CV_Yassine_Assemmar.pdf">
+            <div class="btn-resume">
+                <i class="fa fa-download fa-2x" aria-hidden="true"></i>
+                <span>Télécharger mon CV<span>
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="content">
+            
+            <h1>Some works</h1>
+            
+            <div class="projects">
+            
+            <div class="project">
+                <div class="project-image">
+                <img src="./img/sevim.png" alt=""/>
+                </div>
+                <div class="project-title">
+                <h2>#1 Site personnel</h2>
+                </div>
+                <div class="project-description">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                <img src="./img/em-strasbourg.PNG" alt=""/>
+                </div>
+                <div class="project-title">
+                <h2>#2 Gestion HS</h2>
+                </div>
+                <div class="project-description">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                <img src="./img/pfe_id17.png" alt=""/>
+                </div>
+                <div class="project-title">
+                <h2>#3 PFE Licence</h2>
+                </div>
+                <div class="project-description">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <ul class="socials">
+            <li class="social">
+                <a href="mailto:yassineassemar@gmail.com" target="_blank" class="email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social">
+                <a href="https://github.com/yassine-assemmar" target="_blank" class="github">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social">
+                <a href="https://www.linkedin.com/in/yassine-assemmar-6b6b80113/" target="_blank" class="linkedin">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="social">
+                <a href="https://www.facebook.com/yassine.assemar/" target="_blank" class="facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Yassine</p>
+    </section>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
