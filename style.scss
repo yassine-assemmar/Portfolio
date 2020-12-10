@@ -168,7 +168,7 @@ section{
 #menuTitle{
   position   : absolute;
   right      : 45px;
-//   top     : 2px;
+  // top     : 2px;
   font-family: 'Montserrat', sans-serif;
   font-style : normal;
   font-weight: 500;
@@ -656,7 +656,7 @@ a:hover ~ .svg .squiggle{
         font-size    : 1.1em;
         padding      : 20px;
         margin       : 0 15px;
-        background   : rgba(255,255,255,0.2);
+        // background   : rgba(255,255,255,0.2);
         position     : relative;
         border       : 2px solid #fff;
         border-radius: 5px;
@@ -821,6 +821,9 @@ a:hover ~ .svg .squiggle{
                 }
             }
         }
+    }
+    #menuTitle{
+      top: 2px;
     }
     #menu{
         right: 0;
