@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 
 $main-font: 'PT Sans', sans-serif;
-
+// $main-font: 'Poppins', sans-serif;
 
 // Colors
 $text-color : #444;
@@ -780,14 +782,16 @@ a:hover ~ .svg .squiggle{
 .footer{
   padding   : 25px 0;
   text-align: center;
+  background-color: black;
   
   p{
-    color    : #777;
+    // color    : #777;
+    color: whitesmoke;
     font-size: 1.1em;
   }
   
   i{
-    color: #e74c3c;
+    color: #6ca5c7;
   }
 }
 
@@ -835,6 +839,11 @@ a:hover ~ .svg .squiggle{
                 width: 100vw;
                 right: 0;
         }
+    }
+    .portfolio{
+      .content{
+        text-align: justify;
+      }
     }
 }
 
