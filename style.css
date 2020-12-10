@@ -762,7 +762,6 @@ a:hover ~ .svg .squiggle {
   font-size: 1.1em;
   padding: 20px;
   margin: 0 15px;
-  background: rgba(255, 255, 255, 0.2);
   position: relative;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -921,6 +920,9 @@ a:hover ~ .svg .squiggle {
   }
   .hero .content .header h1 svg {
     width: 250px;
+  }
+  #menuTitle {
+    top: 2px;
   }
   #menu {
     right: 0;
