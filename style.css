@@ -937,7 +937,7 @@ a:hover ~ .svg .squiggle {
     width: 100vw;
     right: 0;
   }
-  .portfolio .content {
+  .portfolio .content .projects {
     text-align: justify;
   }
 }

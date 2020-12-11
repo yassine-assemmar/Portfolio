@@ -842,7 +842,9 @@ a:hover ~ .svg .squiggle{
     }
     .portfolio{
       .content{
-        text-align: justify;
+        .projects{
+          text-align: justify;
+        }
       }
     }
 }
