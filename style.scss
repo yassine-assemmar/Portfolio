@@ -66,13 +66,19 @@ section{
   justify-content: center;
   flex-direction : column;
   align-items    : flex-end;
-  position       : absolute;
+  position       : fixed;
   right          : 50px;
   top            : 50%;
   transform      : translate(0%, -50%);
   height         : 20px;
   width          : auto;
-  z-index        : 11;
+  z-index        : 1;
+}
+.zindex{
+  z-index: 11;
+}
+.zindexa{
+  z-index: 3;
 }
 #menu .checkbox{
   position: absolute;
@@ -88,7 +94,7 @@ section{
   width           : 16px;
   background-color: black;
   margin          : 3px 0px 0px;
-    transition    : all 0.3s;
+  transition      : all 0.3s;
   z-index         : 11;
 }
 #menu .checkbox:hover ~ .line1{
@@ -447,7 +453,7 @@ a:hover ~ .svg .squiggle{
         
     p{
       span{
-        color      : #c0392b;
+        color      : #3685b3;
         font-weight: bold;
       }
     }
@@ -663,6 +669,7 @@ a:hover ~ .svg .squiggle{
         border       : 2px solid #fff;
         border-radius: 5px;
         overflow     : hidden;
+        z-index: 1;
         
         span{
           -webkit-transition: opacity 1.2s;
@@ -724,6 +731,7 @@ a:hover ~ .svg .squiggle{
         margin-right : 10%;
         margin-bottom: 10%;
         overflow     : hidden;
+        z-index      : 1;
         
         &:last-child{
           margin-bottom: 0;
@@ -738,6 +746,32 @@ a:hover ~ .svg .squiggle{
         }
         .project-description{
           color: $text-color;
+          display: flex;
+          flex-wrap: wrap;
+          font-size: small;
+          // line-height: 1.2rem;
+          :nth-child(1){
+            flex: 0 0 50%;
+            
+            h3{
+              text-align: center;
+            }
+            ul{
+              padding: 0px 7px 0 7px;
+              // font-size: small;
+            }
+          }
+          :nth-child(2){
+            flex: 0 0 50%;
+            
+            h3{
+              text-align: center;
+            }
+            ul{
+              padding: 0px 7px 0 7px;
+              // font-size: small;
+            }
+          }
         //   text-align: justify;
         //   letter-spacing: 1px;
         }
@@ -750,6 +784,7 @@ a:hover ~ .svg .squiggle{
 
 .contact{
   padding: 30px 0;
+  z-index: 3;
   
   .socials{
     list-style-type: none;
@@ -843,7 +878,7 @@ a:hover ~ .svg .squiggle{
     .portfolio{
       .content{
         .projects{
-          text-align: justify;
+          text-align: left;
         }
       }
     }
@@ -1031,7 +1066,7 @@ a:hover ~ .svg .squiggle{
             transition              : transform .5s ease; 
             -webkit-transform-origin: left top;
             transform-origin        : left top;
-            z-index                 : 3;
+            z-index                 : 0;
             overflow                : hidden;
 
             img{
@@ -1068,11 +1103,12 @@ a:hover ~ .svg .squiggle{
           }
 
           .project-description{
-            width     : 100%;
-            top       : 50%;
-            left      : 0;
-            padding   : 25px 10px;
-            text-align: justify;
+            width      : 100%;
+            top        : 50%;
+            left       : 0;
+            padding    : 25px 10px;
+            text-align : left;
+            line-height: 1.2rem;
           }
         }
       }

@@ -2,11 +2,23 @@
 function changeText() {
   var checkBox = document.getElementById("inputText");
   var text = document.getElementById("menuTitle");
+  const menu = document.querySelector("#menu");
+  
 
   if (checkBox.checked == true){
-    text.textContent = "CLOSE";
+    text.textContent = "FERMER";
+    menu.classList.add("zindex");
+    $('.project').css('z-index','0');
+    $('.btn-resume').css('z-index', '0');
+    $('.contact').css('z-index', '0');
+
   } else {
     text.textContent = "MENU";
+    menu.classList.remove("zindex");
+    $('.project').css('z-index','3');
+    $('.btn-resume').css('z-index', '1');
+    $('.contact').css('z-index', '3');    
+
   }
 }
 
@@ -96,7 +108,12 @@ $( document ).ready(function() {
     var $developmentWrapper = $('.development-wrapper');
     var developmentIsVisible = false;
    
-
+  //resume
+  if($('.cv').mouseover()){
+    $('.about-myself').css('z-index', '3');
+  } else{
+    $('.about-myself').css('z-index', '0');
+  }
 
   $(window).scroll( function(){
 
