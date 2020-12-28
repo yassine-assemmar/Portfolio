@@ -68,7 +68,8 @@ section{
   align-items    : flex-end;
   position       : fixed;
   right          : 50px;
-  top            : 50%;
+  // $height: calc(height/2);
+  // top            : 50%;
   transform      : translate(0%, -50%);
   height         : 20px;
   width          : auto;
@@ -767,10 +768,10 @@ a:hover ~ .svg .squiggle{
             h3{
               text-align: center;
             }
-            ul{
-              padding: 0px 7px 0 7px;
-              // font-size: small;
-            }
+            // ul{
+            //   padding: 0px 7px 0 7px;
+            //   font-size: small;
+            // }
           }
         //   text-align: justify;
         //   letter-spacing: 1px;
@@ -813,16 +814,17 @@ a:hover ~ .svg .squiggle{
   }
 }
 
+/*##### FOOTER #####*/
 
 .footer{
-  padding   : 25px 0;
+  padding   : 40px 0;
   text-align: center;
   background-color: black;
   
   p{
     // color    : #777;
-    color: whitesmoke;
-    font-size: 1.1em;
+    color: #fff;
+    font-size: smaller;
   }
   
   i{
@@ -866,6 +868,7 @@ a:hover ~ .svg .squiggle{
     }
     #menu{
         right: 0;
+        // top: 27%;
         .sideMenu{
             width: 93vw;
             height: auto;
@@ -879,6 +882,17 @@ a:hover ~ .svg .squiggle{
       .content{
         .projects{
           text-align: left;
+          .project-title{
+            h2{
+              text-align: center;
+            }
+          }
+          .project-description{
+            flex-direction: column;
+            div:nth-child(1){
+              padding: 20px 0 20px 10px;
+            }
+          }
         }
       }
     }
@@ -908,6 +922,18 @@ a:hover ~ .svg .squiggle{
 }
 
 @media screen and (min-width: 480px) and (max-width: 960px){
+    #menu{
+        right: 0;
+        // top: 27%;
+        .sideMenu{
+            width: 93vw;
+            height: auto;
+        }
+        .background{
+                width: 100vw;
+                right: 0;
+        }
+    }
     .hero:before{
         content              : "";
         width                : 100%;
@@ -921,10 +947,27 @@ a:hover ~ .svg .squiggle{
         transition           : all 0.1s ease-in-out;
         z-index              : -2;
     }
+    .portfolio{
+      .content{
+        .projects{
+          text-align: left;
+          .project-title{
+            h2{
+              text-align: center;
+            }
+          }
+          .project-description{
+            // flex-direction: column;
+            div:nth-child(1){
+              padding: 0 0 0 10px;
+            }
+          }
+        }
+      }
+    }
 }
 
 @media screen and (min-width: 640px) {
-  
   .about-myself{
     padding: 100px 40px;
   }

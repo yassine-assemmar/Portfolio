@@ -99,7 +99,9 @@ if(x < 960){
 };
 
 
-
+//MENU top dynamic
+var h = ($('.hero').height())/2;
+$('#menu').css('top', h+0.1);
 
 
 $( document ).ready(function() {
