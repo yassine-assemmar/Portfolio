@@ -1,9 +1,9 @@
 /* ########## MENU ######### */ 
 function changeText() {
-  var checkBox = document.getElementById("inputText");
-  var text = document.getElementById("menuTitle");
+  const checkBox = document.getElementById("inputText");
+  const text = document.getElementById("menuTitle");
   const menu = document.querySelector("#menu");
-  
+ 
 
   if (checkBox.checked == true){
     text.textContent = "FERMER";
@@ -11,16 +11,20 @@ function changeText() {
     $('.project').css('z-index','0');
     $('.btn-resume').css('z-index', '0');
     $('.contact').css('z-index', '0');
+    $('.cv').css('z-index', '0');
 
   } else {
     text.textContent = "MENU";
     menu.classList.remove("zindex");
     $('.project').css('z-index','3');
     $('.btn-resume').css('z-index', '1');
-    $('.contact').css('z-index', '3');    
+    $('.contact').css('z-index', '3');
+    $('.cv').css('z-index', '3');    
 
   }
 }
+
+
 
 
 /* ####### HERO SECTION ####### */
@@ -110,13 +114,7 @@ $( document ).ready(function() {
     var $developmentWrapper = $('.development-wrapper');
     var developmentIsVisible = false;
    
-  //resume
-  if($('.cv').mouseover()){
-    $('.about-myself').css('z-index', '3');
-  } else{
-    $('.about-myself').css('z-index', '0');
-  }
-
+  
   $(window).scroll( function(){
 
     var bottom_of_window = $(window).scrollTop() + $(window).height();

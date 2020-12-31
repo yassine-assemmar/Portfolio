@@ -4,6 +4,7 @@
 
 $main-font: 'PT Sans', sans-serif;
 // $main-font: 'Poppins', sans-serif;
+// $main-font: 'Montserrat', sans-serif;
 
 // Colors
 $text-color : #444;
@@ -68,8 +69,6 @@ section{
   align-items    : flex-end;
   position       : fixed;
   right          : 50px;
-  // $height: calc(height/2);
-  // top            : 50%;
   transform      : translate(0%, -50%);
   height         : 20px;
   width          : auto;
@@ -457,6 +456,16 @@ a:hover ~ .svg .squiggle{
         color      : #3685b3;
         font-weight: bold;
       }
+      .cv{
+        z-index    : 3;
+        position   : relative;
+        transition : all 0.125s ease-in-out 0s;
+        color      : #3685b3;
+        font-weight: bold;
+      }
+      .cv:hover{
+        color: rgb(150, 156, 155);
+      }
     }
   }
 }
@@ -663,14 +672,15 @@ a:hover ~ .svg .squiggle{
       .btn-resume{
         display      : inline-block;
         font-size    : 1.1em;
+        font-weight  : 600;
         padding      : 20px;
         margin       : 0 15px;
-        // background   : rgba(255,255,255,0.2);
+        background   : rgba(255,255,255,0.2);
         position     : relative;
         border       : 2px solid #fff;
         border-radius: 5px;
         overflow     : hidden;
-        z-index: 1;
+        z-index      : 1;
         
         span{
           -webkit-transition: opacity 1.2s;
@@ -742,7 +752,7 @@ a:hover ~ .svg .squiggle{
           width: 100%;
         }
         .project-title{
-          color  : $title-color;
+          color  : #1D1D1F;
           padding: 10px 0;
         }
         .project-description{

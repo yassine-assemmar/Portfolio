@@ -570,6 +570,19 @@ a:hover ~ .svg .squiggle {
   font-weight: bold;
 }
 
+.about-myself .content p .cv {
+  z-index: 3;
+  position: relative;
+  -webkit-transition: all 0.125s ease-in-out 0s;
+  transition: all 0.125s ease-in-out 0s;
+  color: #3685b3;
+  font-weight: bold;
+}
+
+.about-myself .content p .cv:hover {
+  color: #969c9b;
+}
+
 /*##### EXPERIENCE SECTION #####*/
 .experience {
   background: -webkit-gradient(linear, left top, left bottom, from(#2a6f97), to(#f9f9f9));
@@ -768,8 +781,10 @@ a:hover ~ .svg .squiggle {
 .resume .content a .btn-resume {
   display: inline-block;
   font-size: 1.1em;
+  font-weight: 600;
   padding: 20px;
   margin: 0 15px;
+  background: rgba(255, 255, 255, 0.2);
   position: relative;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -843,7 +858,7 @@ a:hover ~ .svg .squiggle {
 }
 
 .portfolio .content .projects .project .project-title {
-  color: #3c3c3c;
+  color: #1D1D1F;
   padding: 10px 0;
 }
 
