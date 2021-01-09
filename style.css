@@ -1122,7 +1122,7 @@ a:hover ~ .svg .squiggle {
     padding-right: 50px;
   }
   .skills .content {
-    max-width: 1100px;
+    max-width: 1168px;
     margin: auto;
   }
   .skills .content .development-wrapper,
@@ -1131,10 +1131,10 @@ a:hover ~ .svg .squiggle {
   }
   .skills .content .development-wrapper {
     margin-bottom: 0;
-    width: 60%;
+    width: 53%;
   }
   .skills .content .tools-knowledge-wrapper {
-    width: 40%;
+    width: 47%;
     margin-top: 60px;
   }
   .skills .content .tools-knowledge-wrapper .tools-wrapper,
