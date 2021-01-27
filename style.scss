@@ -20,9 +20,9 @@ $progressbar-color          : #2a6f97;
 *,
 *:before,
 *:after{
-  margin : 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin    : 0;
+  padding   : 0;
+  box-sizing:  border-box;
 }
 
 html,
@@ -756,8 +756,8 @@ a:hover ~ .svg .squiggle{
           padding: 10px 0;
         }
         .project-description{
-          color: $text-color;
-          display: flex;
+          color    : $text-color;
+          display  : flex;
           flex-wrap: wrap;
           font-size: small;
           // line-height: 1.2rem;
