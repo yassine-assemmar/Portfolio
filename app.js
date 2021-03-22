@@ -34,12 +34,12 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal('.hero .content .header' ,{
-    origin: 'top',
-    distance: '50px',
-    delay: 50,
-    scale: 0.5
-});
+// sr.reveal('.hero .content .header' ,{
+//     origin: 'top',
+//     distance: '50px',
+//     delay: 50,
+//     scale: 0.5
+// });
 
 /* #### LOGO #### */ 
 
