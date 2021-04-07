@@ -780,6 +780,13 @@ a:hover ~ .svg .squiggle{
             //   padding: 0px 7px 0 7px;
             //   font-size: small;
             // }
+            a{
+              color: #2a6f97; 
+              text-transform: uppercase;
+            }
+            a:hover{
+              color: #444;
+            }
           }
         //   text-align: justify;
         //   letter-spacing: 1px;
@@ -1123,7 +1130,7 @@ a:hover ~ .svg .squiggle{
             img{
               width     : 100%;
               height    : auto;
-              min-height: 100%;
+              min-height: auto;
               min-width : 100%;
             }
           }

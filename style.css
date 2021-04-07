@@ -896,6 +896,15 @@ a:hover ~ .svg .squiggle {
   text-align: center;
 }
 
+.portfolio .content .projects .project .project-description :nth-child(2) a {
+  color: #2a6f97;
+  text-transform: uppercase;
+}
+
+.portfolio .content .projects .project .project-description :nth-child(2) a:hover {
+  color: #444;
+}
+
 /*##### CONTACT SECTION #####*/
 .contact {
   padding: 30px 0;
@@ -1180,7 +1189,7 @@ a:hover ~ .svg .squiggle {
   .portfolio .content .projects .project .project-image img {
     width: 100%;
     height: auto;
-    min-height: 100%;
+    min-height: auto;
     min-width: 100%;
   }
   .portfolio .content .projects .project .project-title,
