@@ -12,6 +12,7 @@ function changeText() {
     $('.btn-resume').css('z-index', '0');
     $('.contact').css('z-index', '0');
     $('.cv').css('z-index', '0');
+    $('.mytitle').css('z-index', '0');
 
   } else {
     text.textContent = "MENU";
@@ -20,7 +21,7 @@ function changeText() {
     $('.btn-resume').css('z-index', '1');
     $('.contact').css('z-index', '3');
     $('.cv').css('z-index', '3');    
-
+    $('.mytitle').css('z-index', '1');
   }
 }
 
